@@ -10,10 +10,6 @@ app.get('/', (req, res) => {
 	res.send("ты лох!");
 });
 
-app.get('/register', (req, res) => {
-	res.sendFile('reg.html');
-});
-
 app.listen(port, () => {
 	console.log(`Listening on ${port}`);
 });
